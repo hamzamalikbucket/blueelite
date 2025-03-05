@@ -1,0 +1,32 @@
+.slider-bg {
+  background-color:#5271ff;
+  padding: 90px;
+}
+.slider-content {
+  padding: 90px;
+  background-color: white;
+}
+.text-size {
+  font-size: 20px;
+  text-align: center;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-bg {
+    background-color: #5271ff;
+    padding: 40px;
+  }
+  .slider-content {
+    padding: 20px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-size {
+    font-size: 20px;
+  }
+}

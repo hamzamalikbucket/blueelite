@@ -1,0 +1,101 @@
+.callback-bg {
+  background-image: url("../Assets/Images/CallBack-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.first-card {
+  background-color: #7c7c7c;
+  padding: 15px;
+}
+.first-card .card-title {
+  color: white;
+  font-size: 22px;
+}
+.first-card .card-subtitle {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+.first-card .card-text span {
+  color: white;
+  font-size: 14px;
+  padding: 20px;
+  padding-left: 5px;
+}
+.second-card {
+  background-color: #5271ff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.second-card .card-text {
+  text-align: center;
+}
+.second-card .card-text input {
+  padding: 2px 10px 2px 10px;
+  width: 100%;
+  max-width: 250px;
+}
+.second-card .callback-ctn {
+  margin-top: 10px;
+  display: flex;
+  padding: 10px 70px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin: auto;
+}
+.third-card .slick-prev {
+  display: none !important;
+}
+.third-card .slick-next {
+  display: none !important;
+}
+.third-card {
+  background-color: #7c7c7c;
+  padding: 10px;
+  /* height: 275px; */
+}
+.third-card .card-text {
+  text-align: center;
+  color: #dedede;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}
+.third-card p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.third-card .blue {
+  color: #5271ff;
+}
+
+@media screen and (max-width: 768px) {
+  .first-card .card-subtitle {
+    font-size: 13px;
+  }
+  .second-card .card-text input {
+    padding: 2px 35px 2px 10px;
+  }
+  .second-card label {
+    font-size: 13px;
+  }
+  .second-card .callback-ctn {
+    font-size: 13px;
+    padding: 10px 35px;
+  }
+  .third-card p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .third-card .card-title {
+    font-size: 22px;
+  }
+}

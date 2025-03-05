@@ -1,0 +1,8 @@
+.Security-imgOverlay {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #5271ff;
+  opacity: 0.5;
+  left: 0;
+}

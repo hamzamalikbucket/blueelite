@@ -1,0 +1,38 @@
+.security-content .content-heading {
+  font-size: 44px;
+  font-weight: bolder;
+}
+.security-content .content-paragraph {
+  font-size: 22px;
+}
+.security-content img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+.points {
+  color: #5271ff;
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .security-content .content-heading {
+    font-size: 24px;
+  }
+  .security-content .content-paragraph {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .security-content .content-heading {
+    font-size: 21px;
+    margin-top: 15px;
+  }
+  .security-content .content-paragraph {
+    font-size: 12px;
+  }
+}

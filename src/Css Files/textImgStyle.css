@@ -1,0 +1,25 @@
+.abouttextImg .right-image {
+  min-height: 270px;
+  object-fit: cover;
+  border-radius: 25px 25px 25px 25px;
+  max-width: 100%;
+}
+
+.abouttextImg h2 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.img-text {
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .abouttextImg h2 {
+    font-size: 30px;
+  }
+  .img-text {
+    font-size: 17px;
+  }
+}

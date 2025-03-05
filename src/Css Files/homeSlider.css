@@ -1,0 +1,55 @@
+.carousel-item img {
+  opacity: 0.8;
+}
+
+.carousel-caption {
+  position: absolute;
+  font-size: 40px;
+  /* right: 15%; */
+  bottom: 1.25rem;
+  left: 5%;
+  /* padding-top: 0.25rem; */
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: start;
+  z-index: 100;
+}
+.carousel-caption h1 {
+  font-size: 4rem;
+}
+.carousel-caption h6 {
+  font-size: 25px;
+  color: #5271ff;
+  font-weight: bolder;
+}
+.carousel-caption .btn {
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  padding: 8px 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.carousel-caption .btn:hover {
+  background-color: rgb(82, 113, 255);
+  color: white;
+}
+.overlay {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #5271ff;
+}
+@media screen and (max-width: 425px) {
+  .carousel-caption h6 {
+    font-size: 18px;
+  }
+  .carousel-caption h1 {
+    font-size: 35px;
+  }
+  .carousel-caption .btn {
+    padding: 5px 10px;
+    font-weight: 300;
+  }
+}

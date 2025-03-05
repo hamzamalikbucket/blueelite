@@ -1,0 +1,80 @@
+.card-bg-img {
+  background-image: url("../Assets/Images/cards-bg-img.jpg");
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.overlay-cards {
+  height: 450px;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.78;
+  top: 0px;
+  left: 0px;
+}
+.security-cards .card {
+  background: transparent;
+  border: 2px solid white;
+  height: 100%;
+}
+.icon-bg {
+  background-color: #5271ff;
+  font-size: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  color: white;
+  margin: auto;
+}
+.security-cards .card-subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+.security-cards .card-subtitle span {
+  color: #5271ff;
+}
+.security-cards .card-text {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-bg {
+    background-color: #5271ff;
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    color: white;
+    margin: auto;
+  }
+  .security-cards .card-subtitle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .security-cards .card-text {
+    font-size: 11px;
+  }
+  .card-bg-img {
+    height: 700px;
+  }
+  .overlay-cards {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card-bg-img {
+    height: 725px;
+  }
+  .overlay-cards {
+    height: 725px;
+  }
+}

@@ -1,0 +1,38 @@
+.heading {
+  font-size: 40px;
+  color: #5271ff;
+}
+.aboutContent li {
+  font-size: 23px;
+}
+.icon-text {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.bullets-bg{
+  background-color: #5271ff;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .aboutContent li {
+    font-size: 18px;
+    list-style: none;
+  }
+  .icon-text {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .aboutContent li {
+    font-size: 16px;
+  }
+  .icon-text {
+    font-size: 20px;
+  }
+}

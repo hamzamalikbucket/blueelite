@@ -1,0 +1,51 @@
+.about-service {
+  display: flex;
+  align-items: center;
+}
+.about-service h3 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.about-service p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40px;
+}
+.anchor-about {
+  display: block;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+.anchor-about:hover {
+  color: black; 
+}
+
+@media screen and (max-width: 768px) {
+  .about-service h3 {
+    font-size: 30px;
+  }
+  .about-service p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about-service h3 {
+    font-size: 30px;
+  }
+  .about-service p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about-service h3 {
+    font-size: 30px;
+  }
+  .about-service p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
